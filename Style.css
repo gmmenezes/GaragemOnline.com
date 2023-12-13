@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inicio_home{
+    color: white;
+    max-width: 100%;
+    padding: 30px;
+    margin: 15px;
+    width: 1200px;
+    text-align: center;
+}
+
+.inicio_li{
+    text-align:center ;
+    padding: 5px;
+    margin: 5px;
+    height: auto;
+
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    width: 100%;
+    padding: auto;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    border: solid 10px white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-image: url("img/header.png");
+}
+
+header nav{
+    box-sizing: border-box;
+    font-size: x-large;
+    margin: 30px;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+.Descricao{
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.CHEV img{
+    text-align: right;
+}
+
+
+header .logo{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 100px;
+    margin: 100px;
+    height: auto;
+    text-align: center;
+    display: flex;
+}
+
+body{
+    background-image: url(img/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    width: auto;
+    max-width: auto;
+    padding: auto;
+    margin: 0 auto;
+    height: 10px;
+    font-size: x-large;
+    color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-size: 35px;
+    font-style: normal;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: inside;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: goldenrod;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+nav a:hover{
+    transition: 0.5s;
+    background-color:white;
+    color: goldenrod;
+}
+
+
+
+.cabeca {/*cabeçalho*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: auto;
+    width: auto;
+    padding: auto;
+    margin: auto; /*espaçamento fora da div*/
+    max-width: fit-content;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-color:goldenrod
+}
+
+.logomarca{
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    border: 0px;
+    
+}
+
+/* -----------------------------Campo das marcas------------------------------ */
+fieldset{
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px;
+    color: white;
+    box-shadow: black;
+    list-style: upper-alpha;
+    list-style-type: square;
+    width: auto;
+    margin-left: auto;
+    height: auto;
+    padding: auto;
+}
+
+/* -----------------------------rodapé-------------------------------------- */
+
+.rodape{
+    font: arial;
+    size: auto auto auto;
+    padding:  50px;
+    height: auto auto auto;
+    text-align: center;
+    border-bottom: 0px;
+    color: fff;
+    font-size: medium;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+/* --------------------------------Marcas---------------------------------- */
+
+article {
+    padding: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10 10px;
+    width: auto;
+}
+
+.CHEV{/*box chevrolet*/
+    display: flex;
+    width: max-content;
+    height: 200px;
+    width: auto;
+    border: 5px 5px 5px;
+    padding: 50px;
+    margin: 2px ;
+    background-color:rgba (144, 203, 44, 0.4);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+    border: solid 10px white;
+    border-radius: 10px;
+}
+
+.FORD{/*box ford*/
+    display: flex;
+    width: max-content;
+    height: 200px;
+    width: auto;
+    border: 5px 5px 5px;
+    padding: 50px;
+    margin: 2px ;
+    background-color:rgba (144, 203, 44, 0.4);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;;
+    border: solid 10px white;
+    border-radius: 10px;
+}
+
+.FIAT{/*box fiat*/
+    display: flex;
+    width: max-content;
+    height: 200px;
+    width: auto;
+    border: 5px 5px 5px;
+    padding: 50px;
+    margin: 2px ;
+    background-color:rgba (144, 203, 44, 0.4);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+    border: solid 10px white;
+    border-radius: 10px;
+}
+
+.VOLKS{/*box volks*/
+    display: flex;
+    width: max-content;
+    height: 200px;
+    width: auto;
+    border: 5px 5px 5px;
+    padding: 50px;
+    margin: 2px ;
+    background-color:rgba (144, 203, 44, 0.4);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+    border: solid 10px white;
+    border-radius: 10px;
+}
+
+/* ------------------------------cad_pessoa------------------------------ */
+.botao_pessoa{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+
+.botao_v{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+
+.nome_p{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+.email_p{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+.senha_p{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+.senha_p2{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+
+
+/* ----------------------------Cad_de_carros-------------------------------- */
+.marca_v{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+.carro_v{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+.modelo_v{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+.ano_v{
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+}
+.valor_v{
+    padding: 15px;
+    margin: 15px;
+    align-items: center
+}
+/* ------------------------------Login------------------------------------- */
+
+
+bodyLog{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-left: 35%;
+    width: 500px;
+    border: goldenrod;
+    font-size: x-large;
+
+}
+
+.login-container h2 {
+    color:goldenrod
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: goldenrod
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.login-container button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+    text-align: center;
+}
+
+.login-container a {
+    color: #3498db;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+    text-align: center;
+}
